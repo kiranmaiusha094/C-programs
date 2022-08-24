@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int i,j;
+int table=5;
+int max=5;
+for(i=1;i<=table;i++)
+{
+for(j=1;j<=max;j++)
+{
+printf("%2d",i*j);
+}
+printf("\n");
+}
+}
